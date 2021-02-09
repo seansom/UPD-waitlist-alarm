@@ -59,9 +59,9 @@ print(f'check_counter = {check_counter}')
 
 
 while True:
-    if 'OPEN' in browser.page_source:
+    if 'Open' in browser.page_source:
         browser.quit()
-        print('OPEN waitlist detected. Starting alarm...')
+        print('Open waitlist detected. Starting alarm...')
         break
 
     else:
